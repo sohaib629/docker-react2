@@ -17,6 +17,7 @@ deploy:
   env: "Dockerreact-env"
   bucket_name: "elasticbeanstalk-us-east-1-687963397861"
   bucket_path: "docker-react"
+  edge: true
   on:
     branch: master
   access_key_id: AKIA2ALOQL3S6YZ7TY5M
